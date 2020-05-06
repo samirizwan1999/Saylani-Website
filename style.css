@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    line-height: 1.7;
+    color: #465ee4;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+  }
+.header{
+    text-align: center;
+    padding-top: 7px;
+    background-color: #477ae7;
+    color: cornsilk;
+}
+.follow{
+    float: left;
+    padding: 5px 30px 5px 60px;
+    margin-top:10px;
+}
+/*--------Navigation--------*/
+#nav-bar {
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar-brand img{
+    height:50px;
+    padding-left:30px;
+}
+.navbar-nav li{
+    padding:0 10px;
+    display: inline-block;
+}
+.navbar-nav li a{
+    float:right;
+    text-align:right;
+
+}
+.navbar-nav  li a:hover {
+    background-color:#477ae7;
+    color: white;
+   
+}
+.navbar-nav  li.active a{
+    background-color: #477ae7;
+    color: white;
+}
+.navbar{
+    background:white;
+}
+.navbar-toggler{
+    border:none!important;
+}
+.nav-link{
+    color:#555!important;
+    font-weight:600;
+    font-size:16px;
+}
+.sub-menu-1{
+    display: none;
+}
+.sub-menu-1:hover {
+    display: block;
+    position: absolute;
+    background:  #205bdb;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+/*---------Slider------*/
+#slider
+{
+    width:100%;
+}
+.carousel-caption{
+    top:50%;
+    transform:translateY(-50%);
+    bottom:initial!important;
+}
+
+/*-------Intro------*/
+#Introduction h1{
+    text-align:center;
+    color:#205bdb;
+    padding-bottom:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+#Introduction h1 span{
+    color:green;
+}
+.title-logo{
+    height: 40px;
+    text-align:center;
+    margin-top: auto;
+}
+#Introduction h1:after{
+    content:'';
+    background:green;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+
+.pass{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align:justify;
+    color: rgb(107, 107, 117);
+    line-height: 1.9;
+    position: relative;
+
+}
+
+/*-------Testimonials---*/
+
+#testimonials{
+    background-color: #205bdb;
+    height: 400px;
+}
+.counter-section{
+    margin: 10% auto;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+.icon-box{
+  
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    position: absolute;
+    padding: 10px;
+}
+.icon-box .fa{
+    font-size: 40px;
+    margin: 25px auto;
+    color: #fff;
+    position: static;
+    text-align: center;
+}
+.counter-box {
+    font-size: 15px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.counter-box .counter{
+    font-size: 60px;
+}
+.counter-box span{
+    color: rgb(17, 240, 17);
+}
+/*------boxes-----*/
+#boxes h1{
+    text-align:center;
+    color:#205bdb;
+    padding-bottom:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+#boxes h1 span{
+    color:green;
+}
+#boxes h1:after{
+    content:'';
+    background:green;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+    background-color:green ;
+}
+.part{
+ 
+  margin: auto;
+  width: 1000px;
+  background-color: #faf6f6;
+}
+.box{
+    box-shadow: 0px 4px 8px 0px grey;
+    transition: 0.4s;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    padding-top: 50px ;
+    
+}
+.box h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #205bdb;
+    font-weight: bold;
+}
+/*-------Missions----*/
+ h3{
+    
+    color:#205bdb;
+    padding-bottom:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    font-weight: bold;
+}
+h3:after{
+    content:'';
+    background:green;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+    background-color:green ;
+    position: absolute;
+}
+/*-----Gallery----*/
+#gallery h1{
+    text-align:center;
+    color:#205bdb;
+    padding-bottom:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+} 
+#gallery h1 span{
+    color:green;
+}
+#gallery h1:after{
+    content:'';
+    background:green;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+#gallery .collecion{
+    margin: 10px 50px;
+}
+#gallery .collecion img{
+    width: 175px;
+    padding: 0px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+#gallery .collecion img:hover{
+    filter: grayscale(0);
+}
+/*------Get in touch----*/
+#contact .info{
+    padding-top: 100px;
+    padding-left: 20px;
+    width:1000px;
+
+}
+#contact .detail{
+    padding-top: 50px;
+
+}
+
+#contact{
+    background-color: #25272e;
+    height: 400px;
+    margin-top: 100px;
+}
+.ending{
+    background-color:#205bdb;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-top: 10px;
+}
